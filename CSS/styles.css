@@ -1,0 +1,34 @@
+body {
+    background: #E6CCBE;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1, h2, th {
+    color: #776274;
+    font-family: verdana;
+    text-decoration:wavy;
+}
+
+ul {
+    color: #A07178;
+    margin: 10px;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+}
+
+td {
+    color: #5A5353;
+}
+
+#button {
+    background-color: #A07178;
+    color: black;
+    padding: 10px 20px;
+    border: 10px solid #5A5353;
+    border-radius: 5px;
+    cursor: pointer;
+}
