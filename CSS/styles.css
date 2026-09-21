@@ -1,34 +1,75 @@
+/* :root {
+    --color-primary:hsl(210, 100%, 50%);
+    --secondary-color: #5A5353;
+    --background-color: #E6CCBE;
+    --color-text: #776274;
+} */
 body {
     background: #E6CCBE;
     max-width: 400px;
     margin: 0 auto;
+    font-family: cursive;
 }
 
-h1, h2, th {
+ h2, th {
     color: #776274;
     font-family: verdana;
     text-decoration:wavy;
+    font-family: cursive;
 }
 
 ul {
     color: #A07178;
     margin: 10px;
-}
-
-nav a {
-    color: red;
-    text-decoration: none;
+    font-family: cursive;
 }
 
 td {
     color: #5A5353;
+    border:#70006b 2px solid;
+    font-family: cursive;
 }
 
 #button {
     background-color: #A07178;
     color: black;
-    padding: 10px 20px;
-    border: 10px solid #5A5353;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    font-family: cursive;
+}
+/* 
+ button: hover {
+    background-color: #001f58;
+    color: white;
+ */
+
+ form {
+    display: grid;
+    gap:8px;
+    border:#70006b 5px solid;
+    font-family: cursive;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #A07178;
+    padding: 10px;    
+    font-family: cursive;
+}
+h1 {
+    color: #776274;
+    font-family: verdana;
+    text-decoration:wavy;
+    flex-direction: center;
+    font-family: cursive;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+p {
+    display: flex;
+
 }
